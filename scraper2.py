@@ -104,7 +104,7 @@ class Property:
                 display(Image(url=img_url))
 
 if __name__ == "__main__":
-    url = "https://www.rightmove.co.uk/properties/166613036"
+    url = "" #Paste url of property listing here
     prop = Property(url)
 
     # Print JSON
