@@ -83,7 +83,7 @@ def parse_rightmove(html):
     return data
 
 if __name__ == "__main__":
-    url = "https://www.rightmove.co.uk/properties/166613036"
+    url = "" #Paste url of property listing here
     html = fetch(url)
     data = parse_rightmove(html)
 
